@@ -15,7 +15,7 @@ Software Development Lifecycle을 이해하는 사람이 소프트웨어 개발�
 operations challenges를 풀려고 노력하는것이다.
 
 
-### 데브옵스가 가져야 할 기술스택
+# 데브옵스가 가져야 할 기술스택
 
 Requirements:
 

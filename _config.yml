@@ -109,8 +109,8 @@ analytics:
 author:
   name             : "엄 상현"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "**In the field of observation, chance favors only the prepared mind..**"
-  location         : "IDPL, MJU, Yongin, Korea(Not North)"
+  bio              : "**Chance favors only the prepared mind..**"
+  location         : "IDPL, MJU, Yongin, KOR"
   email            :
   links:
     - label: "Email"
