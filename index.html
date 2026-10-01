@@ -1,307 +1,133 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SangHyeon Eum</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sanghyeon Eom (엄상현)</title>
+  <meta name="description" content="Homepage of Sanghyeon Eom, Ph.D. student at the System Software Laboratory, UNIST.">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
-
 <body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
+
+  <nav class="navbar">
+    <div class="container">
+      <div class="nav-social">
+        <a href="https://github.com/djatkdgus789" title="GitHub" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/sanghyeon-eom-0a52b51a5/" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:djatkdgus789@unist.ac.kr" title="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i></button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">about</a></li>
+        <li><a href="publications.html">publications</a></li>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="cv.html">cv</a></li>
+      </ul>
     </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+  </nav>
+
+  <main class="container">
+    <div class="post">
+      <header class="post-header">
+        <h1 class="post-title"><b>Sanghyeon</b> Eom (엄상현)</h1>
+        <p class="desc">Email: djatkdgus789 [at] unist [dot] ac [dot] kr</p>
+      </header>
+
+      <article>
+        <!-- Profile photo: put your photo at images/profile.jpg -->
+        <div class="profile">
+          <img src="images/profile.jpg" alt="Sanghyeon Eom" onerror="this.parentElement.style.display='none'">
+          <div class="more-info">
+            <p>Ulsan National Institute of Science and Technology</p>
+            <p>Ulsan, Republic of Korea</p>
+          </div>
         </div>
-        <ul id="menu" class="shadow">
+
+        <div class="clearfix">
+          <p>
+            Hello! I am a Ph.D. student (Combined M.S.–Ph.D. course) in the
+            <a href="https://cse.unist.ac.kr/" target="_blank" rel="noopener">Department of Computer Science and Engineering</a> at the
+            <a href="https://www.unist.ac.kr/" target="_blank" rel="noopener">Ulsan National Institute of Science and Technology (UNIST)</a>,
+            where I work in the System Software Laboratory with Prof. Young-ri Choi.
+          </p>
+          <p>
+            I received my B.S. in Computer Science and Engineering from
+            <a href="https://www.mju.ac.kr/" target="_blank" rel="noopener">Myongji University</a>,
+            where I was an undergraduate researcher at the Intelligence Data Processing Laboratory,
+            advised by Prof. Jik-Soo Kim.
+          </p>
+          <p>
+            I received travel grants for <b>OSDI'23</b> and <b>SOSP'25</b>, and served as a student volunteer at SOSP'25.
+          </p>
+          <p>My research interests lie in:</p>
+          <ul>
+            <li><b>Serverless Computing Systems</b></li>
+            <li><b>Heterogeneous Memory Systems</b></li>
+            <li><b>Efficient AI Systems</b></li>
+          </ul>
+        </div>
+
+        <h2><a href="cv.html">News</a></h2>
+        <div class="news">
+          <table>
+            <tr>
+              <th scope="row">Oct 2025</th>
+              <td><b>[Service]</b> Served as a Student Volunteer at <a href="https://sigops.org/s/conferences/sosp/2025/" target="_blank" rel="noopener">SOSP'25</a> in Seoul, South Korea.</td>
+            </tr>
+            <tr>
+              <th scope="row">Oct 2025</th>
+              <td><b>[Award]</b> Received a Travel Grant for <a href="https://sigops.org/s/conferences/sosp/2025/" target="_blank" rel="noopener">SOSP'25</a>.</td>
+            </tr>
+            <tr>
+              <th scope="row">Jul 2023</th>
+              <td><b>[Award]</b> Received a Travel Grant for <a href="https://www.usenix.org/conference/osdi23" target="_blank" rel="noopener">OSDI'23</a> in Boston, MA, USA.</td>
+            </tr>
+            <tr>
+              <th scope="row">Mar 2021</th>
+              <td><b>[Career]</b> Joined the System Software Laboratory at UNIST.</td>
+            </tr>
+          </table>
+        </div>
+
+        <h2><a href="publications.html">Selected Publications</a></h2>
+        <div class="publications">
+          <ol class="bibliography">
             <li>
-                <a href="#about">About</a>
+              <div class="pub-row">
+                <div class="pub-abbr"><span class="abbr-badge">ICS</span></div>
+                <div class="pub-body">
+                  <div class="pub-title">FaaSlim: Partial Caching of Snapshot-based VMs for Serverless Computing</div>
+                  <div class="pub-author"><b>Sanghyeon Eom</b>, Chanyoung Park, Gihong Lee, Hyungon Moon*, and Young-ri Choi*</div>
+                  <div class="pub-venue">Proceedings of the 40th ACM International Conference on Supercomputing (ICS'26)</div>
+                </div>
+              </div>
             </li>
             <li>
-                <a href="#experience">Experience</a>
+              <div class="pub-row">
+                <div class="pub-abbr"><span class="abbr-badge">EuroSys</span></div>
+                <div class="pub-body">
+                  <div class="pub-title">JABAS: Joint Adaptive Batching and Automatic Scaling for DNN Training on Heterogeneous GPUs</div>
+                  <div class="pub-author">Gyeongchan Yun, Junesoo Kang, Hyunjoon Jeong, <b>Sanghyeon Eom</b>, Minsung Jang, and Young-ri Choi*</div>
+                  <div class="pub-venue">Proceedings of the Twentieth European Conference on Computer Systems (EuroSys 2025)</div>
+                </div>
+              </div>
             </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
-                <a href="#publications">Publications</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </header>
-    <!-- End header -->
-
-    <div id="lead">
-        <div id="lead-content">
-            <h1>SangHyeon Eum</h1>
-            <h2>Graduate Student</h2>
-        <!--    <a href="#" class="btn-rounded-white">Download Resume</a> -->
+          </ol>
         </div>
-        <!-- End #lead-conten#t -->
-
-        <div id="lead-overlay"></div>
-
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
+      </article>
     </div>
-    <!-- End #lead -->
+  </main>
 
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        I'm a graduate student in System Software Laboratory at UNIST. (Advisor: Prof. Young-ri Choi).</br>
-                        I research on System software technologies for next-generation computing systems to support emerging applications and new computer architectures;
-                        especially, related on deep learning applications and big data analytics applications.</br>
-                        (Research Interset: Distributed System for Deep Learning, Machine-Learning Platforms, Resource Mangement, Scheduling,
-                        Cloud-Computing, OS Level Virtualization, Next-generation Computing technologies)
-                    </p>
-                </div>
-            </div>
-        </div>
+  <footer>
+    <div class="container">
+      &copy; Copyright 2026 Sanghyeon Eom. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>.
     </div>
-    <!-- End #about -->
+  </footer>
 
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="September 2019 – December 2020">
-                <h3>Intelligence Data Processing Laboratory</h3>
-                <h4>Undergraduate Researcher</h4>
-                <p>
-                </p>
-            </div>
-
-            <div data-date="January 2021 – Febuary 2021">
-                <h3>System Software Laboratory</h3>
-                <h4>External Participating Undergraduated Research Intern</h4>
-                <p>
-                </p>
-            </div>
-
-            <div data-date="March 2021 – Present">
-                <h3>System Software Laboratory</h3>
-                <h4>Graduate Student</h4>
-                <p>
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- End #experience -->
-
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>MyongJi University</h3>
-            <span class="education-date">Mar 2015 - Feb 2021</span>
-            <h4>Bachelor of Engieering in Computer Engieering</h4>
-            <p>
-            </p>
-        </div>
-        <!-- End .education-block -->
-
-        <div class="education-block">
-            <h3>UNIST</h3>
-            <span class="education-date">Mar 2021 - Present</span>
-            <h4>Combined M.S - Ph.D Course of Science in Computer Science and Engieering</h4>
-            <ul>
-                <li>
-                    Distributed System for Deep Learning
-                </li>
-                <li>
-                    Cloud-Computing
-                </li>
-                <li>
-                    Next-generation Computing technologies
-                </li>
-            </ul>
-        </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
-
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Publications</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/KIISE.png" />
-                    </div>
-                    <!-- End .publications-image -->
-                    <div class="project-info">
-                        <h3>Method for Efficient Storage Resource Management in Docker Container-based Cloud Environments (Poster)</h3>
-                        <p>
-                            In this paper, we designed and implemented a solution to storage management problems that may occur in a public cloud environment using Docker and Kubernetes, which are representative open source platforms mainly used for microservice development and distribution.
-                        </p>
-                        <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09874738">Paper</a>
-                    </div>
-                    <!-- End .publications-info -->
-                </div>
-                <!-- End .publications -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/KIISE.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>A Study on the Network-aware Scheduler for Real-time Applications in Kubernetes based Edge Cloud Environments (Poster)</h3>
-                        <p>
-                            This paper is based on the Kubernetes platform in an edge cloud environment.
-                            We designed and implemented a scheduler considering the network to improve at the platform software level. 
-                        </p>
-                        <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10530086">Paper</a>
-                    </div>
-                    <!-- End .publications-info -->
-                </div>
-                <!-- End .publications -->
-            </div>
-        </div>
-    </div>
-    <!-- End #publications -->
-
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/koren.jpg"/>
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Network-Aware Placement System for URLLC service in Edge-cloud environment</h3>
-                        <p>
-                            In this project, we developed a cluster server-based virtual edge cloud, Koren SDI-based edge cloud, an API-based tool that can monitor network information, and a scheduler that can select the optimal network edge node.
-                            (Won a silver award in NET challenge League 7)
-                        </p>
-                        <a href="https://github.com/djatkdgus789/Network-Aware-Placement-System-for-URLLC-service-in-Edge-cloud-environment">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/contri.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Ankus-Lite For Web Data Analysis</h3>
-                        <p>
-                            Analyzing images (photos) that are personally stored and displayed on SNS or the web to infer information on current trends or hot spots.
-                        </p>
-                        <a href="https://github.com/kosslab-kr/ankus_contributhon2018/tree/master/Team_A">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-            </div>
-        </div>
-    </div>
-    <!-- End #projects -->
-
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>Go</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C++</li>
-            <li>Kubernetes</li>
-            <li>Hadoop</li>
-            <li>Tensorflow</li>
-            <li>Pytorch</li>
-
-        </ul>
-    </div>
-    <!-- End #skills -->
-
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2020 SangHyeon Eum
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End footer -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
-
 </html>
